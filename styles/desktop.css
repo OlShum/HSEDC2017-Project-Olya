@@ -1,0 +1,183 @@
+body{
+  background-color: #fafafa;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.AtmosPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.menubar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+
+.menubar .logo {
+  width: 83px;
+  height: 23px;
+  margin: auto;
+  top: 18px;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+}
+
+.sections {
+  display: flex;
+  position: relative;
+  height: 800px;
+  width: 1180px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.sections h2 {
+  font-size: 44px;
+  line-height: 56px;
+  font-family: 'PT Sans Caption',sans-serif;
+  font-weight: bold;
+}
+
+.sections p{
+  font-family: 'PT Sans',sans-serif;
+  margin-top: 28px;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.sections section {
+  position: absolute;
+  top: 186px;
+}
+
+.sections.about .sections.eco  section {
+  left: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.sections.world section {
+  left: 670px;
+  color: #FFF;
+}
+
+.sections.center section {
+  text-align: center;
+  top: 186px;
+  width: 100%;
+  color: #FFF;
+}
+
+.FolioPage section .line {
+  width: 30px;
+  height: 4px;
+  margin-top: 61px;
+  background-color: #50E3C2;
+}
+
+.sections.center section nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 72px;
+  height: 60px;
+  width: 100%;
+}
+
+.sections.center section nav .btn{
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 17px;
+  background-color: #77FFE1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+}
+
+.underline {
+  margin-top: 14px;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.mockup {
+  position: absolute;
+  background-size: cover;
+}
+
+#mockup1 {
+  top: 233px;
+  left: 620px;
+  width: 530px;
+  height: 1199.86px;
+  background-image: url(../images/about.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#mockup201 {
+  top: 193px;
+  left: 30px;
+  width: 140px;
+  height: 316.94px;
+  background-image: url(../images/about.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#mockup202 {
+  top: 193px;
+  left: 203px;
+  width: 140px;
+  height: 395.01px;
+  background-image: url(../images/works.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#mockup203 {
+  top: 193px;
+  left: 376px;
+  width: 140px;
+  height: 474.44px;
+  background-image: url(../images/work.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#mockup3 {
+  top: 343px;
+  left: 510px;
+  width: 759.56px;
+  height: 403px;
+  background-image: url(../images/screens.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.FolioPage footer p{
+  font-size: 16px;
+  color: #FFF;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
