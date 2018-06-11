@@ -1,6 +1,6 @@
 body{
   background-color: #fafafa;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -35,7 +35,7 @@ body{
   background-repeat: no-repeat;
 }
 
-.sections {
+.sections, .first{
   display: flex;
   position: relative;
   height: 800px;
@@ -44,15 +44,33 @@ body{
   background-color: white;
 }
 
+.first {
+  justify-content: center;
+}
+
 .sections h2 {
   font-size: 44px;
   line-height: 56px;
-  font-family: 'PT Sans Caption',sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: bold;
 }
 
+.first h3 {
+  font-size: 30px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  margin-top: 300px
+}
+
 .sections p{
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'Roboto',sans-serif;
+  margin-top: 28px;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.first p{
+  font-family: 'Roboto',sans-serif;
   margin-top: 28px;
   font-size: 21px;
   line-height: 36px;
@@ -61,30 +79,28 @@ body{
 .sections section {
   position: absolute;
   top: 186px;
+  width: 500px;
 }
 
-.sections.about .sections.eco  section {
+.first section {
+  position: absolute;
+  top: 186px;
+}
+
+.sections.about section {
   left: 30px;
-  color: rgba(0, 0, 0, 0.8);
 }
 
 .sections.world section {
-  left: 670px;
-  color: #FFF;
+  left: 600px;
 }
 
-.sections.center section {
-  text-align: center;
-  top: 186px;
-  width: 100%;
-  color: #FFF;
+.sections.eco  section {
+  left: 30px;
 }
 
-.FolioPage section .line {
-  width: 30px;
-  height: 4px;
-  margin-top: 61px;
-  background-color: #50E3C2;
+.sections.style section {
+  left: 600px;
 }
 
 .sections.center section nav {
