@@ -18,11 +18,11 @@ body{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   height: 60px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #2DAB66;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
 }
 
@@ -87,6 +87,17 @@ body{
   top: 186px;
 }
 
+.atmos {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 250px;
+  background-size: cover;
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .sections.about section {
   left: 30px;
 }
@@ -133,67 +144,84 @@ body{
   color: #FFF;
 }
 
-.mockup {
+.letter {
   position: absolute;
+}
+
+#a {
+  top: 100px;
+  left: 730px;
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/a.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#t {
+  top: 100px;
+  right: 750px;
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/t.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#m {
+  top: 100px;
+  left: 700px;
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/m.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#o {
+  top: 100px;
+  right: 640px;
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/o.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#s {
+  top: 50px;
+  left: 750px;
+  width: 600px;
+  height: 600px;
+  background-image: url(../images/s.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.view {
+ height: 600px;
+ display: flex;
+}
+
+.slider {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+.slider > div {
+  height: 100%;
   background-size: cover;
 }
 
-#mockup1 {
-  top: 233px;
-  left: 620px;
-  width: 530px;
-  height: 1199.86px;
-  background-image: url(../images/about.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+.slider-image1 {
+  background-image: url(../Photos/1.jpg);
 }
 
-#mockup201 {
-  top: 193px;
-  left: 30px;
-  width: 140px;
-  height: 316.94px;
-  background-image: url(../images/about.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+.slider-image2 {
+  background-image: url(../Photos/2.jpg);
 }
 
-#mockup202 {
-  top: 193px;
-  left: 203px;
-  width: 140px;
-  height: 395.01px;
-  background-image: url(../images/works.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#mockup203 {
-  top: 193px;
-  left: 376px;
-  width: 140px;
-  height: 474.44px;
-  background-image: url(../images/work.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#mockup3 {
-  top: 343px;
-  left: 510px;
-  width: 759.56px;
-  height: 403px;
-  background-image: url(../images/screens.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.FolioPage footer p{
-  font-size: 16px;
-  color: #FFF;
-  position: absolute;
-  bottom: 70px;
-  right: 0;
-  width: 100%;
-  text-align: center;
+.slider-image3 {
+  background-image: url(../Photos/3.jpg);
 }

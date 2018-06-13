@@ -22,45 +22,42 @@
     line-height: 26px;
   }
 
-  .FolioPage section .line {
-    margin-top: 44px;
+  .sections.about section {
+    left: 300px;
+    z-index: 1;
   }
 
-  .sections.left section {
-    left: 114px;
+  .sections.world section {
+    left: 300px;
+    z-index: 1;
   }
 
-  .sections.right section {
-    left: 312px;
+  .sections.eco  section {
+    left: 300px;
+    z-index: 1;
   }
 
-  #mockup1 {
-    left: 114px;
-    position: center;
-    top: 482px;
-    width: 540px;
-    height: 1222,5px;
+  .sections.style section {
+    left: 300px;
+    z-index: 1;
   }
 
-  #mockup201 {
-    top: 452px;
-    left: 139px;
+  #a {
+    left: 500px;
   }
 
-  #mockup202 {
-    top: 452px;
-    left: 312px;
+  #t {
+    left: 50px;
   }
 
-  #mockup203 {
-    top: 452px;
-    left: 485px;
+  #m {
+    left: 450px;
   }
 
-  #mockup3 {
-    top: 506px;
-    left: 122px;
+  #o {
+    left: 170px;
   }
 
-
-}
+  #s {
+    left: 520px;
+  }
